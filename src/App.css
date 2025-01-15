@@ -1,0 +1,68 @@
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+:root {
+  --primary-light-500: #DBA39A;
+  --primary-light-400: #FEFCF3;
+  --secondary-light-500: #F5EBE0;
+  --bg-primary-light: #FAF7F0;
+  --text-primary-light: rgba(28, 28, 30);
+  --text-secondary-light: #a5858b;
+
+  --bg-primary-dark: #070F2B;
+  --primary-dark-500: #070F2B;
+  --primary-dark-400: #1B1A55;
+  --secondary-dark-500: #535C91;
+  --secondary-dark-400: #9290C3;
+  --text-primary-dark: #f8f9fa;
+  --text-secondary-dark: #e9ecef;
+}
+
+.light {
+  --primary-500: var(--primary-light-500);
+  --primary-400: var(--primary-light-400);
+  --secondary-500: var(--secondary-light-500);
+
+  --tab-primary-rgb: 219, 162, 154;
+
+  --text-primary: var(--text-primary-light);
+  --text-secondary: var(--text-secondary-light);
+  --bg-primary: var(--bg-primary-light);
+}
+
+.dark {
+  --primary-500: var(--primary-dark-500);
+  --primary-400: var(--primary-dark-400);
+  --secondary-500: var(--secondary-dark-500);
+
+  --text-primary: var(--text-primary-dark);
+  --text-secondary: var(--text-secondary-dark);
+  --bg-primary: var(--bg-primary-dark);
+}
+
+html, body {
+  height: 100%;
+}
+
+.app {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  /* background-color: var(--bg-primary); */
+}
+
+.app-tab-container {
+  display: flex;
+  height: fit-content;
+  justify-content: center;
+  width: 100%;
+}
+
+.app-content-container {
+  width: 100%;
+  height: 100%;
+}

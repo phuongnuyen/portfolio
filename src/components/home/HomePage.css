@@ -1,0 +1,4 @@
+.reflect-shadow {
+  background-image: linear-gradient(#b1b1b19e, #b1b1b13a 15%, rgba(255, 255, 255, 0));
+  box-shadow: 0px 0px 20px 5px #ffffff inset;
+}
